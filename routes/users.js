@@ -111,7 +111,6 @@ router.get('/selectUser',(req,res,next)=>{
 })
 
 router.post('/login',(req,res,next)=>{
-    console.log(0);
     console.log(req.body);
     if(req.body.user==123 && req.body.pass=='123'){
         resultData={
